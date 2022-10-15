@@ -19,6 +19,8 @@ def get_new_json1():
                 final.update(final_json)
                 with open("schema/result1.json","w") as file:
                     json.dump(final,file)
+    
+    return final
                     
 
 get_new_json1()
